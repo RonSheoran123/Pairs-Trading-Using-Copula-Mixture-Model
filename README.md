@@ -75,12 +75,12 @@ Traditional pairs trading strategies rely on linear assumptions (e.g., correlati
 The copula-based strategy significantly outperformed traditional Bollinger Bands approaches:
 
 | **Stock Pair**       | **Best-Fit Copula Log-Likelihood** | **Mixture Model Log-Likelihood** |
-|----------------------|----------------------------------|----------------------------------|
-| MSFT - ADBE         | 392.5856                         | 392.1353                         |
-| PYPL - ADBE         | 250.7162                         | 250.1762                         |
-| MSFT - ACN          | 300.4938                         | 299.8242                         |
-| AMZN - ADBE         | 280.6838                         | 280.5166                         |
-| ACN - LIN           | 223.8038                         | 223.0498                         |
+|----------------------|------------------------------------|----------------------------------|
+| MSFT - ADBE          | 361.446                            | 392.1353                         |
+| PYPL - ADBE          | 223.971                            | 250.1762                         |
+| MSFT - ACN           | 274.902                            | 299.8242                         |
+| AMZN - ADBE          | 260.357                            | 280.5166                         |
+| ACN - LIN            | 205.099                            | 223.0498                         |
 
 ### Key Metrics
 | **Stock Pair**       | **Sharpe Ratio** | **Volatility** | **CAGR**   |
