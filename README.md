@@ -49,9 +49,9 @@ Traditional pairs trading strategies rely on linear assumptions (e.g., correlati
 
 #### **Mixture Copula Model**
 - Defined a weighted mixture of the three copulas:
-  \[
-  C_{mix}(u,v; \omega) = \omega_1 C_{Gaussian}(u,v; \rho) + \omega_2 C_{Gumbel}(u,v; \alpha) + (1 - \omega_1 - \omega_2) C_{Clayton}(u,v; \theta)
-  \]
+
+![image](https://github.com/user-attachments/assets/80893fce-1f71-4e5c-ac65-3281e77b7b90)
+
   - Optimized weights \(\omega_1, \omega_2\) using:
     - **Grid Search**: Exhaustive search over possible weights.
     - **Expectation-Maximization (EM)**: Iteratively optimized weights, achieving faster computation (20x improvement).
