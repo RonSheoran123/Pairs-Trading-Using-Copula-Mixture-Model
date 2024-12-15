@@ -100,6 +100,8 @@ The copula-based strategy significantly outperformed traditional Bollinger Bands
 | MA - LIN            | 11.41           | 46.53%        | 33.45%     |
 | V - PYPL            | 9.17            | 61.50%        | 35.41%     |
 
+![image](https://github.com/user-attachments/assets/bbf7bf9c-33f0-4ef3-89ef-fd61bbf34006)
+
 **Conclusion**: The mixture model consistently achieved higher log-likelihood values, Sharpe Ratios, and CAGR compared to traditional methods.
 
 ---
