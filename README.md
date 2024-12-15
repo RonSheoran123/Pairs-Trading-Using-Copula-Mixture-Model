@@ -52,6 +52,8 @@ Traditional pairs trading strategies rely on linear assumptions (e.g., correlati
 
 ![image](https://github.com/user-attachments/assets/10ada73c-0e64-40cb-9a60-b4b8a8727610)
 
+![image](https://github.com/user-attachments/assets/65cd6bcd-eec0-4f70-b005-644faab7e623)
+
   - Optimized weights using:
     - **Grid Search**: Exhaustive search over possible weights.
     - **Expectation-Maximization (EM)**: Iteratively optimized weights, achieving faster computation (20x improvement).
