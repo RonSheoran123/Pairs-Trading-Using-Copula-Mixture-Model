@@ -42,12 +42,17 @@ Traditional pairs trading strategies rely on linear assumptions (e.g., correlati
 - Used **log returns** instead of raw prices to ensure stationarity.
 - Transformed log returns to uniform marginals using the **Empirical CDF Transformation**.
 
+![image](https://github.com/user-attachments/assets/1b29d38d-7169-4a80-b326-45c1aa9189e6)
+
+![image](https://github.com/user-attachments/assets/d1c23997-05c4-4b27-84c1-773ed60294dd)
+
+
 ### 2. Copula Fitting Methods
 #### **Best-Fit Copula**
 - Fit three copulas (Gaussian, Gumbel, Clayton) to the data.
 - Selected the copula with the **highest log-likelihood**.
 
-  ![image](https://github.com/user-attachments/assets/cf2925de-046e-4462-845a-50b4d344b845)
+![image](https://github.com/user-attachments/assets/cf2925de-046e-4462-845a-50b4d344b845)
 
 
 #### **Mixture Copula Model**
