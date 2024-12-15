@@ -47,6 +47,9 @@ Traditional pairs trading strategies rely on linear assumptions (e.g., correlati
 - Fit three copulas (Gaussian, Gumbel, Clayton) to the data.
 - Selected the copula with the **highest log-likelihood**.
 
+  ![image](https://github.com/user-attachments/assets/cf2925de-046e-4462-845a-50b4d344b845)
+
+
 #### **Mixture Copula Model**
 - Defined a weighted mixture of the three copulas:
 
